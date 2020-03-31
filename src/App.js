@@ -9,6 +9,7 @@ function App() {
   const clickHandler = () => {
     const newProduct = axios.get('https://epamsystems06-alliance-prtnr-eu02-dw.demandware.net/on/demandware.store/Sites-RefArch-Site/en_US/Product-Show?pid=25518360M');
     setProduct(newProduct);
+    console.log(newProduct);
   }
 
   return (
